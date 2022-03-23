@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+    </style>
+    <title>Dogs</title>
+</head>
+<body class="" style="background-color: #fff;">
+
+    <header  class="p-3" style="background-color: #8EE4C4;">
+
+        <!-- nav -->
+        <nav class="navbar justify-content-center navbar-expand-lg">
+            <h1 class="text-dark fw-bold">Dogs</h1>
+        </nav>
+
+        <!-- search form -->
+        <form class="form search-form">
+            <input class="form-control form-control-sm mx-auto" style="width: 500px;" name="input" type="text" placeholder="Search Breed Name" aria-label=".form-control-sm example">
+        </form>
+
+    </header>
+
+    <!-- content -->
+    <div class= "container p-1 my-3 text-center" style="min-height: 410px;">
+
+        <!-- result -->
+        <div class="result row justify-content-center">
+           
+        </div>
+
+    </div>
+
+    <!-- buttons -->
+    <div class="buttons text-center">
+
+        <p class="pageNumb fw-bold">
+            1
+        </p>
+
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            
+            <!-- pre button -->
+            <button type="button" class="btn fw-bold my-btn pre" style="background-color: #8EE4C4;"><</button>
+            
+            <!-- page form -->
+            <form class="form page-form">
+                <input class="form-control form-control-sm mx-auto p-2" name="input" style="width: 45px;" type="number" placeholder="No" aria-label=".form-control-sm example">
+            </form>
+            
+            <!-- next button -->
+            <button type="button" class="btn fw-bold my-btn next" style="background-color: #8EE4C4;">></button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="text-center text-lg-start mt-2" style="background-color: #8EE4C4;">
+        
+        <div class="text-center p-3 fw-bold">
+          Contact Me On Github:
+          <a class="fw-bold text-dark" href="https://github.com/selfDeveloperr">@selfdeveloperr</a>
+        </div>
+    
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./js/dogApi.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
